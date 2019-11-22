@@ -1,0 +1,37 @@
+.body
+{
+    font-family: 'Tinos', serif;
+}
+
+
+.title
+{
+    text-align: center;
+}
+
+img
+{
+    width: 2.1em;
+    height: 3.2em;
+}
+
+.grid-container
+{
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10%;
+    background-color: grey;
+    padding: 10px;
+    justify-self: center;
+    margin-left: 36%;
+}
+
+
+.grid-item
+{
+ background-color: grey;
+  border: 3px solid black;
+  padding: 5px;
+  font-size: 30px;
+  text-align: center;
+  justify-items: center;
+}

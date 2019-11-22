@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        Matching Game
+    </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>@import url('https://fonts.googleapis.com/css?family=Tinos:700&display=swap');</style>
+        
+    <style>
+    body
+    {
+        font-family: 'Tinos', serif;
+    }
+    </style>
+    <link type="text/css" rel="stylesheet" href="style/style.css">
+    
+
+    <style>
+        body
+        {
+            background-color: grey;
+        }
+    </style>
+</head>
+<body onload="init();">
+
+    <h1 class="title">Matching Game!</h1>
+    <p id="game"></p>
+    <div class="website">
+        <div class="grid-container">
+            <div class="grid-item"><img id="1" src="img/empty.png"  onclick="matchCards(this)"></div>
+            <div class="grid-item"><img id="2"src="img/empty.png"  onclick="matchCards(this)"></div>
+            <div class="grid-item"><img id="3" src="img/empty.png"  onclick="matchCards(this)"></div>
+            <div class="grid-item"><img id="4" src="img/empty.png"  onclick="matchCards(this)"></div>
+            <div class="grid-item"><img id="5" src="img/empty.png"  onclick="matchCards(this)"></div>
+            <div class="grid-item"><img id="6" src="img/empty.png"  onclick="matchCards(this)"></div>
+            <div class="grid-item"><img id="7" src="img/empty.png"  onclick="matchCards(this)"></div>
+            <div class="grid-item"><img id="8" src="img/empty.png"  onclick="matchCards(this)"></div>
+            <div class="grid-item"><img id="9" src="img/empty.png"  onclick="matchCards(this)"></div>
+            <div class="grid-item"><img id="10" src="img/empty.png"  onclick="matchCards(this)"></div>
+            <div class="grid-item"><img id="11" src="img/empty.png"  onclick="matchCards(this)"></div>
+            <div class="grid-item"><img id="12" src="img/empty.png"  onclick="matchCards(this)"></div>
+            <div class="grid-item"><img id="13" src="img/empty.png"  onclick="matchCards(this)"></div>
+            <div class="grid-item"><img id="14" src="img/empty.png"  onclick="matchCards(this)"></div>
+            <div class="grid-item"><img id="15" src="img/empty.png"  onclick="matchCards(this)"></div>
+            <div class="grid-item"><img id="16" src="img/empty.png"  onclick="matchCards(this)"></div>
+        </div>
+    </div>
+
+    <div>
+        <button id="refresh" onclick="refresh();" class="btn btn-dark">New</button><br>
+        <p id="tries"></p>
+    </div>
+
+</body>
+<script type="text/javascript" src="script/match.js"></script>
+
+</html>
